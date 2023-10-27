@@ -24,19 +24,18 @@
 }
 
 .label {
-
+    position: absolute;
     color: #FFF;
-    padding-left: 334px;
     font-family: Ubuntu;
     font-size: 28px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+    left: 50%;
 }
 
 .frame .button {
-    padding-left: 330px;
+    position: absolute;
+    right: 5%;
 }
 
 .button-wrapper {
