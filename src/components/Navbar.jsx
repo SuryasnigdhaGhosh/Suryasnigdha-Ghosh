@@ -6,13 +6,13 @@ const Navbar = () => {
     return (
         
                 <div className="frame">
-                    <div className="text-wrapper">Home</div>
-                    <div className="text-wrapper">About</div>
-                    <div className="text-wrapper">Course</div>
-                    <div className="label">Smart Academy</div>
-                    <div className="button">
+                    <a className="text-wrapper">Home</a>
+                    <a className="text-wrapper">About</a>
+                    <a className="text-wrapper">Course</a>
+                    <a className="label">Smart Academy</a>
+                    <a className="button">
                         <div className="button-wrapper">Explore Course</div>
-                    </div>
+                    </a>
 
                 </div>
         

@@ -5,7 +5,7 @@ const Course = (props) => {
   return (
     <div className="course">
       <img className="img" alt="Rectangle" src={props.src} />
-      <div className="caption">{props.caption}</div>
+      <a className="caption">{props.caption}</a>
     </div>
   )
 }

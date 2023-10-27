@@ -16,7 +16,7 @@ const Courses = () => {
     return (
 
         <div className="courses">
-            <div className="text-wrapper">Smart Academy offers services like</div>
+            <div className="text-wrapper">Our Featured Course at Smart Academy</div>
 
             <div className="courses-grid">
                 <Course src={c1} caption="Kids Science Course"/>
