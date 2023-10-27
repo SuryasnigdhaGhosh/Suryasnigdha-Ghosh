@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 258px;
+    width: 438px;
+}
+
+.testimonial .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.testimonial .img {
+    display: flex;
+    width: 99px;
+    height: 99px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial .text-wrapper {
+    color: #008BD8;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    width: 261px;
+    text-align: left;
+    margin: 0;
+}
+
+.testimonial .testimonial-desc{
+    color: #363636;
+    display: flex;
+    flex-direction: column;
+    width: 261px;
+    gap: 20px;
+}
+
+.testimonial .testimonial-desc p{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    
+}

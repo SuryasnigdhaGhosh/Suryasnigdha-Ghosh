@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.articles {
+    margin-top: 170px;
+}
+
+.articles .text-wrapper {
+    color: #008bd8;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    width: 840px;
+}
+
+.articles .article-grid{
+    margin: 100px 100px 0px;
+    display: grid;
+    justify-content:space-evenly;
+    grid-template-columns: auto auto auto ;
+}

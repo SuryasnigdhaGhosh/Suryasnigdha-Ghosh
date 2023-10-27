@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+.course {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    width: fit-content;
+}
+
+.course .img {
+    width: 282.525px;
+    height: 272.5px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.course .caption {
+    color: #008BD8;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Russo+One&family=Ubuntu:wght@500&display=swap');
+
+
+
+
+.frame {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-top: 39px;
+    padding-left: 80px;
+
+}
+
+
+.text-wrapper {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.label {
+
+    color: #FFF;
+    padding-left: 334px;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.frame .button {
+    padding-left: 330px;
+}
+
+.button-wrapper {
+    display: flex;
+    border-radius: 100px;
+    background: #FF3C8A;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 20px;
+    cursor: pointer;
+}

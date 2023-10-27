@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+
+.contact {
+    background-color: #008bd8;
+    height: 598px;
+    display: flex;
+}
+
+
+.contact .text-wrapper {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: normal;
+
+
+
+}
+
+.col-1 .text-wrapper{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-content {
+    display: flex;
+    margin: auto;
+    gap: 400px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+
+
+.col-1 .desc {
+    color: #ffffff;
+    font-family: "Mulish";
+    font-size: 20px;
+    width: 419px;
+}
+
+ .socials{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   
+}
+
+.socials a{
+    cursor: pointer;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+
+.col-2 ul , .col-3 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.col-2 li , .col-3 li {
+    margin-bottom: 27px;
+}
+
+.col-2 a , .col-3 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Mulish";
+    font-size: 20px;
+    font-weight: 400;
+
+}

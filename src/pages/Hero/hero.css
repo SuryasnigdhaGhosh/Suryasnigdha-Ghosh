@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@700&family=Russo+One&family=Ubuntu:wght@500&display=swap');
+
+
+.bg-img {
+
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 40%, rgba(0, 0, 0, 0.50)), url("../../assets/1.png");
+    min-height: 1040px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 990px;
+    gap: 24px;
+    margin-left: 70px;
+    margin-top: 152px;
+
+}
+
+.hero .heading {
+    color: white;
+
+    font-family: Ubuntu;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.desc {
+    margin: 0;
+    max-width: 770px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.container .button {
+    padding-top: 40px;
+}
+
+.container .button .button-wrapper{
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}

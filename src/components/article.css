@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.article {
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 621px;
+    width: 396px;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.article-content .img {
+    width: 395.805px;
+    height: 244.787px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.article-content .text-wrapper {
+    margin: auto;
+    width: 242px;
+    color: #008BD8;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.article-content .article-desc {
+    width: 261px;
+    margin: auto;
+    color: #363636;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.article-content .button{
+    margin-top: 40px;
+}
+
