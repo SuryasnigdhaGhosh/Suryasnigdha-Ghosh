@@ -9,7 +9,7 @@ const Testimonial = (props) => {
                 <img className="img" alt="Ellipse" src={props.src} />
                 <div className="testimonial-desc">
                     <div className="text-wrapper">{props.name}</div>
-                    <p className="lorem-ipsum-dolor">
+                    <p className="testimonial-comment">
                         {props.comment}
                     </p>
                 </div>
